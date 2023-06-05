@@ -1,5 +1,11 @@
+import Navbar from "./Navbar";
+
 const Portfolio = () => {
-    return <h1 className="text-xl text-red-600">Hello</h1>
+    return (
+      <div className="h-screen w-screen bg-[#F5F5F5]">
+        <Navbar />
+      </div>
+    );
 }
 
 export default Portfolio;
