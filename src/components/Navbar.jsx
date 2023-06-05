@@ -5,7 +5,8 @@ const Navbar = () => {
   const [showNavItems, setShowNavItems] = useState(false);
   const listStyles = "h-20 w-full flex items-center justify-end";
   const navItemStyles =
-    "mr-8 first-letter:transition-colors duration-300 ease-in-out hover:text-[#8DA242]";
+    "mr-8 first-letter:transition-colors duration-300 ease-in-out hover:text-[#A7BC5B]";
+
   return (
     <nav className="h-20 w-full flex flex-row justify-between items-center text-[#505b27] bg-[#ffffff] shadow-md md:justify-evenly lg:justify-around">
       <div className="h-auto w-auto flex flex-row items-center cursor-pointer">
@@ -15,7 +16,7 @@ const Navbar = () => {
           className="h-12 w-12 rounded-full ml-4 mr-2 lg:ml-[-4rem]"
         />
         <span className="text-lg font-semibold transition-colors duration-300 ease-in-out hover:text-[#A7BC5B] tracking-wide">
-          SAGAR DAS
+          Sagar Das
         </span>
       </div>
       {showNavItems && (

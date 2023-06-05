@@ -1,11 +1,16 @@
-import Navbar from "./Navbar";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import RootLayout from "../pages/Root";
+import HomePage from "../pages/Home";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [{ index: true, element: <HomePage /> }],
+  },
+]);
 const Portfolio = () => {
-    return (
-      <div className="h-screen w-screen bg-[#F5F5F5]">
-        <Navbar />
-      </div>
-    );
-}
+  return <RouterProvider router={router} />;
+};
 
 export default Portfolio;
