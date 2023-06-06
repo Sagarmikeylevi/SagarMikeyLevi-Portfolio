@@ -1,16 +1,13 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import RootLayout from "../pages/Root";
-import HomePage from "../pages/Home";
+import About from "./About";
+import Home from "./Home";
+import Navbar from "./Navbar";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <RootLayout />,
-    children: [{ index: true, element: <HomePage /> }],
-  },
-]);
 const Portfolio = () => {
-  return <RouterProvider router={router} />;
+  return <>
+    <Navbar />
+    <Home />
+    <About />
+  </>
 };
 
 export default Portfolio;

@@ -1,9 +1,9 @@
 const Home = () => {
     const socialLogoStyles =
-      "h-12 w-12 flex items-center justify-center hover:bg-[#b3ffd9] cursor-pointer";
+      "h-12 w-12 flex items-center justify-center hover:bg-[#b3ffd9] cursor-pointer transition duration-300 ease-in-out";
   return (
-    <div className="h-[90vh] w-full flex flex-col items-center justify-center bg-[#f2f2f2]">
-      <h1 className="text-2xl font-extrabold  tracking-wider md:text-3xl lg:text-4xl text-[#8DA242]">
+    <div className="h-screen w-full flex flex-col items-center justify-center bg-[#f2f2f2]">
+      <h1 className="text-2xl font-extrabold  tracking-wider md:text-3xl lg:text-4xl text-[#8DA242] mt-44">
         HEY I'M{" "}
         <span className="text-4xl ml-2 md:text-5xl lg:text-6xl">SAGAR DAS</span>
       </h1>
@@ -14,11 +14,11 @@ const Home = () => {
         of innovation and create exceptional projects together!
       </p>
 
-      <div className="text-center w-32 h-12 bg-[#A7BC5B] flex justify-center items-center rounded text-white font-medium tracking-wider cursor-pointer shadow-lg hover:shadow-3xl hover:bg-[#00cc66]">
+      <div className="text-center w-32 h-12 bg-[#A7BC5B] flex justify-center items-center rounded text-white font-medium tracking-wider cursor-pointer shadow-lg hover:shadow-3xl hover:bg-[#00cc66] transition duration-300 ease-in-out">
         PROJECTS
       </div>
 
-      <ul className="hidden md:absolute md:left-0 md:top-60 md:h-52 md:w-12 bg-white md:flex md:flex-col md:justify-evenly md:items-center">
+      <ul className="hidden md:absolute md:left-0 md:top-60 md:h-52 md:w-12 bg-white md:flex md:flex-col md:justify-evenly md:items-center z-40">
         <li className={socialLogoStyles}>
           <img
             src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png"
