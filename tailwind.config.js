@@ -8,6 +8,7 @@ export default {
           "rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;",
 
         lg: "rgba(17, 12, 46, 0.15) 0px 48px 100px 0px",
+        xl: "rgba(17, 17, 26, 0.1) 0px 0px 16px;",
       },
     },
   },
