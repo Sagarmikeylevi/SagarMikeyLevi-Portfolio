@@ -19,6 +19,9 @@ The Personal Portfolio Website is built using the following technologies:
 - CSS: The styling language used to enhance the visual appearance of the portfolio website.
 - Vercel: A popular platform for deploying web applications and hosting static websites.
 
+![portfolio](https://github.com/Sagarmikeylevi/SagarMikeyLevi-Portfolio/assets/114811573/01fe21d8-94ff-4e6b-8ec3-a973cb8af1d7)
+
+
 ## Installation
 To run the Personal Portfolio Website locally, follow these steps:
 
