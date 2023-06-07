@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="h-[130vh] w-full bg-[#e8e9e5] flex flex-col items-center">
+    <div className="h-[140vh] w-full bg-[#e8e9e5] flex flex-col items-center">
       <div className="pt-16 w-full flex flex-col items-center justify-center">
         <h1 className="text-3xl font-semibold text-[#495324] relative md:text-4xl">
           CONTACT
@@ -45,6 +45,14 @@ const Contact = () => {
             type="text"
             placeholder="Enter Your Message"
           />
+        </div>
+        <div className="flex justify-end items-center mr-12">
+          <button
+            type="submit "
+            className="h-8 w-24 bg-[#333300] rounded text-cyan-50 font-semibold hover:bg-red-400"
+          >
+            Submit
+          </button>
         </div>
       </form>
     </div>
