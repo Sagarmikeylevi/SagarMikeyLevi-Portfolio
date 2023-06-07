@@ -1,5 +1,6 @@
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./FooterSection";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
@@ -11,6 +12,7 @@ const Portfolio = () => {
     <About />
     <Projects />
     <Contact />
+    <Footer />
   </>
 };
 
