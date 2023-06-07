@@ -1,8 +1,13 @@
+import { Link } from "react-scroll";
+
 const About = () => {
     const skillsSyles = "bg-[#d7e2b0] p-2 rounded text-[#5c6a29] font-medium";
   return (
-    <div className="h-[190vh] w-full bg-[#e8e9e5] sm:h-[170vh] md:h-[160vh] lg:h-[130vh] xl:h-[120vh]">
-      <div className="pt-16 w-full flex flex-col items-center justify-center">
+    <div
+      id="about"
+      className="h-[200vh] w-full bg-[#e8e9e5] sm:h-[180vh] md:h-[165vh] lg:h-[135vh] xl:h-[125vh]"
+    >
+      <div className="pt-24 w-full flex flex-col items-center justify-center">
         <h1 className="text-3xl font-semibold text-[#495324] relative md:text-4xl">
           ABOUT <span className="ml-2 inline-block ">ME</span>
           <span className="absolute  top-12 left-[4.5rem] rounded-sm w-8 h-[5px] bg-[#A7BC5B] md:left-[5.5rem] md:top-14"></span>
@@ -47,9 +52,11 @@ const About = () => {
               opportunities to contribute, learn, and expand my skills. Let's
               collaborate on exciting projects!
             </p>
-            <div className="mt-8 text-center w-32 h-12 bg-[#A7BC5B] flex justify-center items-center rounded text-white font-medium tracking-wider cursor-pointer shadow-lg hover:shadow-3xl hover:bg-[#00cc66] transition duration-300 ease-in-out">
-              Contact
-            </div>
+            <Link to="contact">
+              <div className="mt-8 text-center w-32 h-12 bg-[#A7BC5B] flex justify-center items-center rounded text-white font-medium tracking-wider cursor-pointer shadow-lg hover:shadow-3xl hover:bg-[#00cc66] transition duration-300 ease-in-out">
+                Contact
+              </div>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col ml-8  md:mt-[-3rem]">

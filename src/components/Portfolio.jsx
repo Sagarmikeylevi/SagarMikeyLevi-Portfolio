@@ -6,14 +6,16 @@ import Navbar from "./Navbar";
 import Projects from "./Projects";
 
 const Portfolio = () => {
-  return <>
-    <Navbar />
-    <Home />
-    <About />
-    <Projects />
-    <Contact />
-    <Footer />
-  </>
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
 };
 
 export default Portfolio;
