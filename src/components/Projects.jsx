@@ -144,22 +144,24 @@ const Projects = () => {
           }}
         >
           <h1 className="text-xl font-semibold text-[#697931]">
-            Habit Tracker
+            Personal Portfolio Website
           </h1>
           <p className="text-[#414825] pt-4 pl-10 pb-8 pr-10">
-            This project is a Habit Tracker application built using React, a
-            popular JavaScript library for building user interfaces. The Habit
-            Tracker allows users to create and track their habits, set
-            categories for habits, save data to Firestore, and view task details
-            such as task streaks and task completion in a calendar format. The
-            app provides a user-friendly interface to help users establish and
-            maintain their desired habits.
+            This project is a Personal Portfolio Website built using React, a
+            popular JavaScript library for building user interfaces. The
+            portfolio website showcases the skills, projects, and experiences of
+            the owner. It provides an interactive and visually appealing
+            interface for visitors to learn more about the owner and their work.
           </p>
           <div className={btnspaceStyle}>
             {/* GitHub link */}
-            <div className={githubStyle}>GitHub</div>
+            <a href="https://github.com/Sagarmikeylevi/SagarMikeyLevi-Portfolio">
+              <div className={githubStyle}>GitHub</div>
+            </a>
             {/* Visit link */}
-            <div className={visitStyle}>Visit</div>
+            <a href="https://sagar-mikey-levi-portfolio.vercel.app/">
+              <div className={visitStyle}>Visit</div>
+            </a>
           </div>
         </div>
       </div>
