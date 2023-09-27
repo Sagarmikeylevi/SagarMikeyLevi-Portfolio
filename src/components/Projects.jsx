@@ -31,6 +31,13 @@ const Projects = () => {
       githubLink: "https://github.com/Sagarmikeylevi/React-Weather-App",
       visitLink: "https://sagarmikeylevi-weather-app.netlify.app/",
     },
+    {
+      title: "Spotify-Clone",
+      description:
+        "The primary objective of this project is to construct a functional clone of the Spotify platform, utilizing Spotify's Web API to deliver real content. The application is built with React, using Tailwind CSS for styling and the Context API for state management.",
+      githubLink: "https://github.com/Sagarmikeylevi/Spotify-Clone",
+      visitLink: "https://spotify-sagarmikeylevi.netlify.app/",
+    },
   ];
 
   return (
